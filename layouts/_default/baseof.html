@@ -1,0 +1,12 @@
+<html lang="{{ .Language.Lang }}">
+<head>
+    {{ partial "base/head.html" . }}
+</head>
+<body>
+    {{ block "main" . }}
+    
+    {{ end }}
+
+    {{ partial "base/footer.html" . }}
+</body>
+</html>
